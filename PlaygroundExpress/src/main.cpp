@@ -25,12 +25,14 @@ void loop()
 {
   // Set the LED HIGH
   digitalWrite(LED_BUILTIN, HIGH);
+  Serial.println("HIGH");
 
   // Wait for a second
   delay(1000);
 
   // Set the LED LOW
   digitalWrite(LED_BUILTIN, LOW);
+    Serial.println("LOW");
 
    // Wait for a second
   delay(1000);
